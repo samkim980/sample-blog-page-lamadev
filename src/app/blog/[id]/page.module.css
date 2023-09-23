@@ -1,0 +1,42 @@
+.top {
+  display: flex;
+  gap: 20px;
+}
+.info {
+  flex: 1;
+}
+.title {
+  font-size: 40px;
+}
+.desc {
+  font-size: 18px;
+  font-weight: 300;
+}
+.author {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.avatar {
+  object-fit: cover;
+  border-radius: 50%;
+}
+.username {
+  margin-left: 10px;
+}
+.imageContainer {
+  position: relative;
+  height: 300px;
+  flex: 1;
+}
+.img {
+  object-fit: cover;
+}
+
+.content {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #999;
+  text-align: justify;
+}
